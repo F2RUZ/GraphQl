@@ -1,0 +1,508 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "iPhone 15 Pro Max",
+      "price": 1299,
+      "category": "smartphone",
+      "description": "Apple’ning eng yangi flagmani — kuchli A17 Pro chip va 48MP kamera bilan.",
+      "images": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-15-pro-max-1.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Samsung Galaxy S24 Ultra",
+      "price": "1140",
+      "category": "smartphone",
+      "description": "200MP kamera, Snapdragon 8 Gen 3 chipi va S-Pen qo‘llab-quvvatlovi bilan.",
+      "images": "https://media.gettyimages.com/id/1477492545/photo/iphone-13-mini-pink-back-side.jpg?s=612x612&w=gi&k=20&c=cc-RyB-2tZMIdnwQ1f5fX-rKTVBCyVx_WDS0JopiWj0="
+    },
+    {
+      "id": "3",
+      "title": "Google Pixel 8 Pro",
+      "price": 999,
+      "category": "smartphone",
+      "description": "AI yordamida suratga olish va Tensor G3 chipi bilan yuqori unumdorlik.",
+      "images": "https://mercurycomputerslimited.com/wp-content/uploads/2024/04/Google-Pixel-8-Pro.webp"
+    },
+    {
+      "id": "4",
+      "title": "Xiaomi 14 Ultra",
+      "price": 1099,
+      "category": "smartphone",
+      "description": "Leica kamera tizimi va Snapdragon 8 Gen 3 chipi bilan.",
+      "images": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14-ultra-1.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Huawei P60 Pro",
+      "price": 899,
+      "category": "smartphone",
+      "description": "50MP RYYB sensorli kamera va ajoyib dizayn bilan.",
+      "images": "https://fdn2.gsmarena.com/vv/pics/huawei/huawei-p60-pro-1.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Asus ROG Phone 8",
+      "price": 1099,
+      "category": "smartphone",
+      "description": "Gamerlar uchun maxsus telefon — 165Hz displey va sovutish tizimi bilan.",
+      "images": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-phone-8-1.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Sony Xperia 1 V",
+      "price": 1199,
+      "category": "smartphone",
+      "description": "Pro darajadagi kamera imkoniyatlari bilan kino olishga mo‘ljallangan telefon.",
+      "images": "https://fdn2.gsmarena.com/vv/pics/sony/sony-xperia-1-v-1.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Realme GT 6 Pro",
+      "price": 749,
+      "category": "smartphone",
+      "description": "Snapdragon 8s Gen 3 va 144Hz OLED displey bilan arzon flagman killer.",
+      "images": "https://cdn.mediablog.mediapark.uz/corecms/post-thumbnails/01JHHMJWQBWQVCMT5KC3KR40GD.webp"
+    },
+    {
+      "id": "10",
+      "title": "Vivo X100 Pro",
+      "price": 999,
+      "category": "smartphone",
+      "description": "Zeiss optikasi va Dimensity 9300 chipi bilan surat sifati yuqori.",
+      "images": "https://fdn2.gsmarena.com/vv/pics/vivo/vivo-x100-pro-1.jpg"
+    },
+    {
+      "id": "11",
+      "title": "iPhone 14 Pro Max",
+      "price": 1099,
+      "category": "smartphone",
+      "description": "A16 Bionic chip va Dynamic Island interfeysi bilan mashhur model.",
+      "images": "https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-max-1.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Samsung Galaxy Z Fold5",
+      "price": 1799,
+      "category": "smartphone",
+      "description": "Katlanadigan ekranli telefon — multitasking uchun mukammal yechim.",
+      "images": "https://cdn.mediablog.mediapark.uz/corecms/post-thumbnails/01JHHMJWQBWQVCMT5KC3KR40GD.webp"
+    },
+    {
+      "id": "13",
+      "title": "Nothing Phone 2",
+      "price": "750",
+      "category": "smartphone",
+      "description": "Yorqin dizayn va LED Glyph tizimi bilan o‘ziga xos smartfon.",
+      "images": "https://cdn.mediablog.mediapark.uz/corecms/post-thumbnails/01JHHMJWQBWQVCMT5KC3KR40GD.webp"
+    },
+    {
+      "id": "14",
+      "title": "Xiaomi Redmi Note 13 Pro+",
+      "price": 499,
+      "category": "smartphone",
+      "description": "200MP kamera va 120W tez quvvatlash bilan o‘rta segmentda lider.",
+      "images": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-13-pro-plus-1.jpg"
+    },
+    {
+      "id": "15",
+      "title": "Poco F6 Pro",
+      "price": 599,
+      "category": "smartphone",
+      "description": "Snapdragon 8 Gen 2 va 120Hz AMOLED ekrani bilan kuchli o‘yin telefoni.",
+      "images": "https://cdn.mediablog.mediapark.uz/corecms/post-thumbnails/01JHHMJWQBWQVCMT5KC3KR40GD.webp"
+    },
+    {
+      "id": "16",
+      "title": "Oppo Find X7 Ultra",
+      "price": 1149,
+      "category": "smartphone",
+      "description": "Sony LYT-900 sensorli 1 dyuymli kamera bilan professional darajadagi suratlar.",
+      "images": "https://fdn2.gsmarena.com/vv/pics/oppo/oppo-find-x7-ultra-1.jpg"
+    },
+    {
+      "id": "17",
+      "title": "Honor Magic6 Pro",
+      "price": 999,
+      "category": "smartphone",
+      "description": "Snapdragon 8 Gen 3 chipi va 180MP telefoto kamera bilan ajoyib tanlov.",
+      "images": "https://fdn2.gsmarena.com/vv/pics/honor/honor-magic6-pro-1.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Motorola Edge 50 Ultra",
+      "price": 899,
+      "category": "smartphone",
+      "description": "Snapdragon 8s Gen 3 va 125W tez quvvatlash texnologiyasi bilan.",
+      "images": "https://cdn.mediablog.mediapark.uz/corecms/post-thumbnails/01JHHMJWQBWQVCMT5KC3KR40GD.webp"
+    },
+    {
+      "id": "b6e3",
+      "title": "i phone 17 pro max ultra",
+      "price": "123",
+      "description": "whats",
+      "category": "spartphone",
+      "images": "https://cdn.mediablog.mediapark.uz/corecms/post-thumbnails/01JHHMJWQBWQVCMT5KC3KR40GD.webp"
+    }
+  ],
+  "users": [
+    {
+      "id": "a1f2",
+      "name": "Feruz Gaffarov",
+      "role": "super admin",
+      "email": "feruzgaffarov@ms.uz"
+    },
+    {
+      "id": "b4d5",
+      "name": "Laylo Akbarova",
+      "role": "admin",
+      "email": "laylo.akbarova@mail.com"
+    },
+    {
+      "id": "c7e8",
+      "name": "Anvar Tursunov",
+      "role": "manager",
+      "email": "anvar.tursunov@gmail.com"
+    },
+    {
+      "id": "d9f1",
+      "name": "Dilshod Karimov",
+      "role": "editor",
+      "email": "dilshod.karimov@mail.uz"
+    },
+    {
+      "id": "e2a3",
+      "name": "Nigora Mahmudova",
+      "role": "user",
+      "email": "nigora.mahmu@gmail.com"
+    },
+    {
+      "id": "f3b4",
+      "name": "Javlonbek Oripov",
+      "role": "moderator",
+      "email": "javlon.oripov@corp.uz"
+    },
+    {
+      "id": "g5c6",
+      "name": "Malika Rustamova",
+      "role": "admin",
+      "email": "malika.rustamova@gmail.com"
+    },
+    {
+      "id": "h7d8",
+      "name": "Abdulaziz Sodiqov",
+      "role": "user",
+      "email": "abdulaziz.sodiqov@mail.com"
+    },
+    {
+      "id": "i9e1",
+      "name": "Zuhra Shukurova",
+      "role": "user",
+      "email": "zuhra.shukurova@ms.uz"
+    },
+    {
+      "id": "j2f3",
+      "name": "Sherzod Akmalov",
+      "role": "manager",
+      "email": "sherzod.akmalov@gmail.com"
+    },
+    {
+      "id": "k4a5",
+      "name": "Nilufar Abdullayeva",
+      "role": "editor",
+      "email": "nilufar.abdulla@corp.uz"
+    },
+    {
+      "id": "l6b7",
+      "name": "Iskandar Qodirov",
+      "role": "moderator",
+      "email": "iskandar.qodirov@mail.uz"
+    },
+    {
+      "id": "m8c9",
+      "name": "Saida Komilova",
+      "role": "user",
+      "email": "saida.komilova@mail.com"
+    },
+    {
+      "id": "n1d2",
+      "name": "Asadbek Yo‘ldoshev",
+      "role": "manager",
+      "email": "asadbek.yoldoshev@gmail.com"
+    },
+    {
+      "id": "o3e4",
+      "name": "Gulbahor Raxmonova",
+      "role": "admin",
+      "email": "gulbahor.raxmonova@mail.uz"
+    },
+    {
+      "id": "p5f6",
+      "name": "Sherali To‘xtasinov",
+      "role": "user",
+      "email": "sherali.toxtasinov@gmail.com"
+    },
+    {
+      "id": "q7a8",
+      "name": "Maftuna Nazarova",
+      "role": "editor",
+      "email": "maftuna.nazarova@ms.uz"
+    },
+    {
+      "id": "r9b1",
+      "name": "Oybek G‘ulomov",
+      "role": "super admin",
+      "email": "oybek.gulomov@mail.com"
+    },
+    {
+      "id": "s2c3",
+      "name": "Shahzoda Normatova",
+      "role": "user",
+      "email": "shahzoda.normatova@mail.uz"
+    },
+    {
+      "id": "t4d5",
+      "name": "Bahodir Qurbonov",
+      "role": "manager",
+      "email": "bahodir.qurbonov@gmail.com"
+    },
+    {
+      "id": "u6e7",
+      "name": "Dilorom Xudoyberdiyeva",
+      "role": "admin",
+      "email": "dilorom.xudoyberdiyeva@corp.uz"
+    },
+    {
+      "id": "v8f9",
+      "name": "Azamat Ubaydullayev",
+      "role": "user",
+      "email": "azamat.ubaydulla@mail.com"
+    },
+    {
+      "id": "w1a2",
+      "name": "Madina Xolmatova",
+      "role": "editor",
+      "email": "madina.xolmatova@ms.uz"
+    },
+    {
+      "id": "x3b4",
+      "name": "Sardorjon Abduvaliyev",
+      "role": "manager",
+      "email": "sardorjon.abduvaliyev@gmail.com"
+    },
+    {
+      "id": "y5c6",
+      "name": "Shaxnoza Raximova",
+      "role": "admin",
+      "email": "shaxnoza.rahimova@mail.com"
+    },
+    {
+      "id": "z7d8",
+      "name": "Abbosbek Ibrohimov",
+      "role": "user",
+      "email": "abbos.ibrohimov@corp.uz"
+    },
+    {
+      "id": "aa9e",
+      "name": "Muslima Toirova",
+      "role": "moderator",
+      "email": "muslima.toirova@mail.com"
+    },
+    {
+      "id": "bb2f",
+      "name": "Umid Raxmonov",
+      "role": "user",
+      "email": "umid.rahmonov@mail.uz"
+    },
+    {
+      "id": "cc4a",
+      "name": "Dilnoza Inomova",
+      "role": "admin",
+      "email": "dilnoza.inomova@gmail.com"
+    },
+    {
+      "id": "dd6b",
+      "name": "Sirojiddin Maxmudov",
+      "role": "user",
+      "email": "sirojiddin.maxmudov@mail.com"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "name": "Bugatti Chiron",
+      "type": "SuperCar",
+      "image": "https://picsum.photos/seed/bugatti-chiron/800/600",
+      "maxSpeed": 420,
+      "score": 5
+    },
+    {
+      "id": "2",
+      "name": "Ferrari SF90",
+      "type": "SuperCar",
+      "image": "https://picsum.photos/seed/ferrari-sf90/800/600",
+      "maxSpeed": 340,
+      "score": 5
+    },
+    {
+      "id": "3",
+      "name": "Lamborghini Aventador",
+      "type": "SuperCar",
+      "image": "https://picsum.photos/seed/lamborghini-aventador/800/600",
+      "maxSpeed": 350,
+      "score": 5
+    },
+    {
+      "id": "4",
+      "name": "Porsche 911 Turbo S",
+      "type": "Sport",
+      "image": "https://picsum.photos/seed/porsche-911/800/600",
+      "maxSpeed": 330,
+      "score": 5
+    },
+    {
+      "id": "5",
+      "name": "McLaren 720S",
+      "type": "SuperCar",
+      "image": "https://picsum.photos/seed/mclaren-720s/800/600",
+      "maxSpeed": 341,
+      "score": 5
+    },
+    {
+      "id": "6",
+      "name": "Aston Martin DB11",
+      "type": "GT",
+      "image": "https://picsum.photos/seed/aston-martin-db11/800/600",
+      "maxSpeed": 322,
+      "score": 4
+    },
+    {
+      "id": "7",
+      "name": "Chevrolet Camaro",
+      "type": "Muscle",
+      "image": "https://picsum.photos/seed/chevy-camaro/800/600",
+      "maxSpeed": 290,
+      "score": 4
+    },
+    {
+      "id": "8",
+      "name": "Ford Mustang GT",
+      "type": "Muscle",
+      "image": "https://picsum.photos/seed/ford-mustang/800/600",
+      "maxSpeed": 298,
+      "score": 4
+    },
+    {
+      "id": "9",
+      "name": "Tesla Model S Plaid",
+      "type": "Electric",
+      "image": "https://picsum.photos/seed/tesla-model-s/800/600",
+      "maxSpeed": 322,
+      "score": 5
+    },
+    {
+      "id": "10",
+      "name": "Rivian R1T",
+      "type": "Electric",
+      "image": "https://picsum.photos/seed/rivian-r1t/800/600",
+      "maxSpeed": 201,
+      "score": 4
+    },
+    {
+      "id": "11",
+      "name": "Range Rover Autobiography",
+      "type": "SUV",
+      "image": "https://picsum.photos/seed/range-rover/800/600",
+      "maxSpeed": 250,
+      "score": 4
+    },
+    {
+      "id": "12",
+      "name": "Mercedes-Benz G63",
+      "type": "SUV",
+      "image": "https://picsum.photos/seed/mercedes-g63/800/600",
+      "maxSpeed": 240,
+      "score": 4
+    },
+    {
+      "id": "13",
+      "name": "BMW M5",
+      "type": "Sport",
+      "image": "https://picsum.photos/seed/bmw-m5/800/600",
+      "maxSpeed": 305,
+      "score": 4
+    },
+    {
+      "id": "14",
+      "name": "Audi RS7",
+      "type": "Sport",
+      "image": "https://picsum.photos/seed/audi-rs7/800/600",
+      "maxSpeed": 305,
+      "score": 4
+    },
+    {
+      "id": "15",
+      "name": "Nissan GT-R",
+      "type": "Sport",
+      "image": "https://picsum.photos/seed/nissan-gtr/800/600",
+      "maxSpeed": 315,
+      "score": 4
+    },
+    {
+      "id": "16",
+      "name": "Toyota Supra",
+      "type": "Sport",
+      "image": "https://picsum.photos/seed/toyota-supra/800/600",
+      "maxSpeed": 250,
+      "score": 4
+    },
+    {
+      "id": "17",
+      "name": "Subaru WRX STI",
+      "type": "Sport",
+      "image": "https://picsum.photos/seed/subaru-wrx/800/600",
+      "maxSpeed": 255,
+      "score": 3
+    },
+    {
+      "id": "18",
+      "name": "Honda Civic Type R",
+      "type": "Hot Hatch",
+      "image": "https://picsum.photos/seed/civic-type-r/800/600",
+      "maxSpeed": 272,
+      "score": 3
+    },
+    {
+      "id": "19",
+      "name": "Volkswagen Golf R",
+      "type": "Hot Hatch",
+      "image": "https://picsum.photos/seed/golf-r/800/600",
+      "maxSpeed": 250,
+      "score": 3
+    },
+    {
+      "id": "20",
+      "name": "Pagani Huayra",
+      "type": "HyperCar",
+      "image": "https://picsum.photos/seed/pagani-huayra/800/600",
+      "maxSpeed": 380,
+      "score": 5
+    },
+    {
+      "id": "425e",
+      "name": "Feruz",
+      "type": "sedan",
+      "maxSpeed": "02321",
+      "image": "https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8=",
+      "score": "0322"
+    },
+    {
+      "id": "5d52",
+      "name": "Feruz Feruz",
+      "type": "efer",
+      "maxSpeed": "322",
+      "image": "https://i.pravatar.cc/100?img=1",
+      "score": "322"
+    }
+  ]
+}
