@@ -1,5 +1,6 @@
 import { gql, useMutation, useQuery } from "@apollo/client";
-import React from "react";
+import React, { useState } from "react";
+import EditModal from "./EditModal";
 
 const GET_CARS = gql`
   query {
@@ -23,6 +24,9 @@ const DELETE_CAR = gql`
 `;
 
 const Cars = () => {
+  const [modal, setModal] = useState(false);
+  const [editId, setEditId] = useState(0);
+
   const { data, loading, error } = useQuery(GET_CARS);
   const [deleteCar] = useMutation(DELETE_CAR, {
     refetchQueries: [{ query: GET_CARS }],
@@ -34,11 +38,20 @@ const Cars = () => {
     }
   };
 
+  //handle<odal
+
+  const handleModal = () => {
+    setModal(true);
+  };
+
   if (loading) return <p>Yuklanmoqda...</p>;
   if (error) return <p>Xatolik yuz berdi 😢</p>;
 
   return (
     <div className="p-5">
+      {modal ? (
+        <EditModal editId={editId} setModal={setModal} GET_CARS={GET_CARS} />
+      ) : null}
       <table className="min-w-full border border-gray-300 rounded-lg shadow-md">
         <thead className="bg-gray-200">
           <tr>
@@ -71,7 +84,13 @@ const Cars = () => {
                 >
                   Delete
                 </button>
-                <button className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition">
+                <button
+                  onClick={() => {
+                    handleModal();
+                    setEditId(item.id);
+                  }}
+                  className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition"
+                >
                   Edit
                 </button>
               </td>
