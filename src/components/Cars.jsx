@@ -1,7 +1,7 @@
 import { gql, useMutation, useQuery } from "@apollo/client";
 import React, { useState } from "react";
 import EditModal from "./EditModal";
-
+import AddModal from "./AddModal";
 const GET_CARS = gql`
   query {
     allCars {
@@ -26,6 +26,7 @@ const DELETE_CAR = gql`
 const Cars = () => {
   const [modal, setModal] = useState(false);
   const [editId, setEditId] = useState(0);
+  const [addModal, setAddModal] = useState(false);
 
   const { data, loading, error } = useQuery(GET_CARS);
   const [deleteCar] = useMutation(DELETE_CAR, {
@@ -44,11 +45,26 @@ const Cars = () => {
     setModal(true);
   };
 
+  const handleAddModal = () => {
+    setAddModal(true);
+  };
+
   if (loading) return <p>Yuklanmoqda...</p>;
   if (error) return <p>Xatolik yuz berdi 😢</p>;
 
   return (
     <div className="p-5">
+      <button
+        onClick={handleAddModal}
+        className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-700 transition"
+      >
+        Add Cars
+      </button>
+
+      {addModal ? (
+        <AddModal GET_CARS={GET_CARS} setAddModal={setAddModal} />
+      ) : null}
+
       {modal ? (
         <EditModal editId={editId} setModal={setModal} GET_CARS={GET_CARS} />
       ) : null}
