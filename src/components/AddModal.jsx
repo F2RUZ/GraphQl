@@ -1,27 +1,27 @@
-// AddModal.jsx
 import { gql, useMutation } from "@apollo/client";
 import React, { useState } from "react";
 
 const ADD_CAR = gql`
   mutation AddCar(
-    $id: ID!
     $name: String!
     $type: String!
     $maxSpeed: String!
     $image: String!
+    $score: String!
   ) {
-    addCar(
-      id: $id
+    createCar(
       name: $name
       type: $type
       maxSpeed: $maxSpeed
       image: $image
+      score: $score
     ) {
       id
       name
+      type
       maxSpeed
       image
-      type
+      score
     }
   }
 `;
@@ -32,38 +32,38 @@ const AddModal = ({ setAddModal, GET_CARS }) => {
     type: "",
     maxSpeed: "",
     image: "",
+    score: "",
   });
 
   const [addCar, { loading }] = useMutation(ADD_CAR, {
-    refetchQueries: [{ query: GET_CARS }], // to'g'ri format
+    refetchQueries: [{ query: GET_CARS }],
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData((p) => ({ ...p, [name]: value }));
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      // Agar server id talab qilsa, biz hozircha uni yaratamiz. Agar server avtomatik beradi — o'chiring.
-      const newId = Date.now().toString();
-
       await addCar({
         variables: {
-          id: newId,
           name: formData.name,
           type: formData.type,
-          // server maxSpeed String kutsa .toString(), agar Int kerak bo'lsa Number(...)
           maxSpeed: formData.maxSpeed.toString(),
-          image: formData.image,
+          image: formData.image || "https://via.placeholder.com/150",
+          score: formData.score.toString(),
         },
       });
 
       setAddModal(false);
     } catch (err) {
-      console.error("Add error:", err);
+      console.error("❌ Add error:", err);
       alert("Xatolik yuz berdi. Konsolni tekshiring.");
     }
   };
@@ -77,39 +77,52 @@ const AddModal = ({ setAddModal, GET_CARS }) => {
         <h2 className="text-xl font-semibold text-center">Add Car</h2>
 
         <input
-          value={formData.name}
-          onChange={handleChange}
           type="text"
           name="name"
           placeholder="Name"
-          className="w-full border p-2 rounded"
+          value={formData.name}
+          onChange={handleChange}
+          className="w-full border border-gray-300 p-2 rounded"
           required
         />
+
         <input
-          value={formData.type}
-          onChange={handleChange}
           type="text"
           name="type"
           placeholder="Type"
-          className="w-full border p-2 rounded"
+          value={formData.type}
+          onChange={handleChange}
+          className="w-full border border-gray-300 p-2 rounded"
           required
         />
+
         <input
+          type="number"
+          name="maxSpeed"
+          placeholder="Max Speed"
           value={formData.maxSpeed}
           onChange={handleChange}
-          type="number"
-          placeholder="Max Speed"
-          name="maxSpeed"
-          className="w-full border p-2 rounded"
+          className="w-full border border-gray-300 p-2 rounded"
           required
         />
+
         <input
+          type="url"
+          name="image"
+          placeholder="Image URL"
           value={formData.image}
           onChange={handleChange}
-          type="url"
-          placeholder="Image URL"
-          name="image"
-          className="w-full border p-2 rounded"
+          className="w-full border border-gray-300 p-2 rounded"
+        />
+
+        <input
+          type="text"
+          name="score"
+          placeholder="Score"
+          value={formData.score}
+          onChange={handleChange}
+          className="w-full border border-gray-300 p-2 rounded"
+          required
         />
 
         <div className="flex justify-end gap-3 mt-4">
